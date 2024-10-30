@@ -1,0 +1,794 @@
+# Copyright (C) 2024 Linxo
+# This file is distributed under the GPL-2.0+.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Linxo Connect 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/linxo-woo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-04 14:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: linxo-woo\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;"
+
+#. tag html: link 2: tag html
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:125
+#, php-format
+msgid "%1$sConfirm the transfer%2$s, everything is pre-filled!"
+msgstr ""
+
+#. 1: tag html 2: tag html
+#: admin/templates/page-settings/tabs/advanced.php:76
+#, php-format
+msgid ""
+"%1$sInstant transfer:%2$s Transfer received within 10 seconds, additional "
+"fees may apply depending on bank."
+msgstr ""
+
+#. 1: link 2: tag html 3: link 4:tag html 5: link 6: tag html
+#: admin/templates/page-settings/tabs/faq.php:36
+#, php-format
+msgid ""
+"%1$sLinxo Connect Payments%2$s solution is an 'automated bank transfer' "
+"payment method. It is a payment method that e-commerce merchants can %3$sadd "
+"to their website's checkout page%4$s, to offer their customers an optimal "
+"and personalized payment experience (no need for customers to input IBAN or "
+"specify a label, and no impact on the credit card limit). The main benefits "
+"of %5$sLinxo Connect Payments%6$s are:"
+msgstr ""
+
+#. tag html: link 2: tag html
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:134
+#, php-format
+msgid "%1$sLinxo%2$s &nbsp; is a subsidiary of"
+msgstr ""
+
+#. 1: tag 2: tag
+#: admin/templates/page-settings/tabs/account.php:47
+#, php-format
+msgid ""
+"%1$sProduction:%2$s Your Production credentials will be subsequently "
+"communicated to you by our technical teams."
+msgstr ""
+
+#. 1: tag 2: tag
+#: admin/templates/page-settings/tabs/account.php:44
+#, php-format
+msgid ""
+"%1$sSandbox:%2$s To obtain your own Sandbox credentials, please contact "
+"Linxo Connect through the contact form:"
+msgstr ""
+
+#. 1: tag html 2: tag html
+#: admin/templates/page-settings/tabs/advanced.php:77
+#, php-format
+msgid ""
+"%1$sStandard transfer:%2$s A standard transfer between 2 banks takes 1 to 2 "
+"business days."
+msgstr ""
+
+#. 1: tag html 2: tag html
+#: admin/templates/page-settings/tabs/presentation.php:16
+#, php-format
+msgid ""
+"%1$sTo take full advantage of the features of your Linxo Connect Payments "
+"module and receive your login details, it is essential to sign up to a "
+"contract. If you have downloaded the Payments plugin directly from "
+"Wordpress/Woocommerce: %2$s"
+msgstr ""
+
+#: includes/global-functions.php:279
+msgid "(default)"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:42
+msgid "+30% to 40% increase in conversion rates"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:44
+msgid "0 bank commission rate"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:111
+msgid "1"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:121
+msgid "2"
+msgstr ""
+
+#. 1: link 2: tag html
+#: admin/templates/page-settings/tabs/faq.php:299
+#, php-format
+msgid ""
+"A 'blocked account' warning in your IBAN may indicate that supporting "
+"documents are missing from your file. Please contact %1$ssupport%2$s Linxo "
+"Connect."
+msgstr ""
+
+#: admin/class-settings.php:225
+msgid "Account successfully added."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:301
+msgid "Add"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:158
+msgid "Add a beneficiary"
+msgstr ""
+
+#: admin/class-settings.php:399
+#: admin/templates/page-settings/tabs/advanced.php:27
+msgid "Advanced settings"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:32
+msgid "Allow logs"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:282
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:343
+msgid "Amount"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:191
+msgid ""
+"Are there additional fees applied to my customers when they make a payment "
+"via bank transfer?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:15
+msgid "Authentication"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:15
+msgid "Authorized accounts"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:45
+msgid ""
+"Automatic and immediate back-office reconciliation with the transaction "
+"description."
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:306
+#: admin/templates/page-settings/tabs/iban.php:108
+msgid "Banking Institution"
+msgstr ""
+
+#: admin/class-settings.php:396
+msgid "Beneficiaries accounts"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:121
+msgid "Beneficiary reference"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:98
+msgid "Both"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:151
+msgid "Can I test the functionality before the implementation in production ?"
+msgstr ""
+
+#. tag html: link 2: tag html
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:115
+#, php-format
+msgid ""
+"Choose the bank %1$sfrom which you want to make the transfer%2$s and log in."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:262
+msgid "City of birth"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:50
+msgid "Click here to download the latest file"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:183
+msgid "Company"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:198
+msgid "Company name"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:18
+#, php-format
+msgid "Complete %1$sthis contact form%2$s"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:19
+msgid "Complete the order form which will be sent to you by email"
+msgstr ""
+
+#: admin/templates/page-settings/header.php:25
+msgid "Contact us"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:212
+#: admin/templates/page-settings/tabs/iban.php:269
+msgid "Country"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:133
+msgid "Current beneficiary"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:290
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:341
+msgid "Date"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:255
+msgid "Date of birth"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/statuses.php:24
+msgid ""
+"Default fields are ready-to-use, but you can adjust them according to your "
+"needs. However, please note that changing the statuses will affect "
+"WordPress's automated actions. For instance, the \"Payment accepted\" order "
+"status triggers an email to your customer to confirm his order."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:129
+msgid "Delete"
+msgstr ""
+
+#: admin/templates/page-settings/header.php:22
+msgid "Do you have a question?"
+msgstr ""
+
+#: admin/templates/page-settings/header.php:34
+msgid "Download User guide"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:46
+msgid ""
+"Easy payment process (no labels, amount, or IBAN to be entered by the "
+"customer)"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:38
+msgid ""
+"Easy purchasing process: fully automated bank transfer payment, with no need "
+"for the payer to enter an IBAN."
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:321
+msgid "Email"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:127
+msgid "Enable IBAN storage"
+msgstr ""
+
+#: admin/class-settings.php:405 admin/templates/page-settings/tabs/faq.php:15
+msgid "FAQ"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:241
+msgid "First Name"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:98
+msgid ""
+"For \"instant\" bank transfer : Funds received within 10 seconds. Please "
+"note that charges may apply depending on the bank's pricing policy."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:97
+msgid ""
+"For \"standard\" bank transfer : Receipt of a SCT transfer is estimated to "
+"take between 1 to 2 business days (depending on the bank)."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:71
+msgid ""
+"He chooses \"Safe payment with Linxo Connect\" among the various payment "
+"options"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:72
+msgid ""
+"He is redirected to a secure interface to select his bank. Then, he will be "
+"automatically redirected to his banking portal to authenticate."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:43
+msgid "High payment limits (ideal for carts with significant amounts)."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:211
+msgid "How can I track payments made through Linxo Connect Payments?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:73
+msgid "How does"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:106
+msgid "How does it work?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:59
+msgid "How does Linxo Connect Payments work?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:271
+msgid "How long are the data saved in Sandbox mode?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:86
+msgid "How soon can I expect to receive my payments?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:171
+msgid "How to switch to production mode?"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://linxoconnect.com/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://linxoconnect.com/produits/payments/"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:291
+msgid "I have a \"blocked account\" warning. What should I do?"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:317
+#: admin/templates/page-settings/tabs/iban.php:117
+#: admin/templates/page-settings/tabs/iban.php:230
+#: admin/templates/page-settings/tabs/iban.php:287
+msgid "IBAN"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:278
+msgid "ID"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:251
+msgid ""
+"If the customer encounters a transaction refusal, for example, due to an "
+"exceeded transfer limit, what message/information will be displayed for the "
+"merchant and what message will be displayed for the customer?"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:97
+msgid "Immediate and secure"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:58
+msgid "Immediate payment confirmation."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:279
+msgid "In Sandbox mode, data is cleared every 3 months."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:188
+msgid "Individual"
+msgstr ""
+
+#: admin/helpers/class-get-specific-order.php:150
+#: admin/templates/page-settings/tabs/advanced.php:93
+msgid "Instant"
+msgstr ""
+
+#: admin/class-settings.php:390
+msgid "Introduction"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:43
+msgid "Irrevocable transfer, funds received in less than 10 seconds"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:159
+msgid ""
+"It is possible to test Linxo Connect Payments. To do so, simply use your "
+"credentials in Sandbox mode. These credentials should be entered in: My "
+"Account > 'Sandbox' mode. This will allow you to test the payment solution "
+"without using your actual banking data."
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:342
+msgid "Label"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:248
+msgid "Last Name"
+msgstr ""
+
+#: admin/templates/page-settings/changelog.php:13
+#: admin/templates/page-settings/changelog.php:20
+msgid "Latest version - What's new?"
+msgstr ""
+
+#. Author of the plugin
+msgid "Linxo"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-settings.php:63 admin/class-wc-order.php:14
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:50
+msgid "Linxo Connect"
+msgstr ""
+
+#: admin/class-settings.php:62
+msgid "Linxo Connect Settings"
+msgstr ""
+
+#. %s: num version
+#: admin/templates/page-settings/changelog.php:12
+#, php-format
+msgid "Linxo v%s"
+msgstr ""
+
+#: admin/class-wc-payment-gateway.php:54
+msgid "Linxo Woo requires WooCommerce to be installed and active."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:53
+msgid "Lower transaction costs."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:108
+msgid "Manual IBAN entry page"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:24
+msgid "Mode"
+msgstr ""
+
+#: admin/class-settings.php:393
+msgid "My account"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:223
+#: admin/templates/page-settings/tabs/iban.php:280
+msgid "Name identifying account holder"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:40
+#: admin/templates/page-settings/tabs/advanced.php:116
+#: admin/templates/page-settings/tabs/advanced.php:135
+msgid "No"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:147
+msgid "No authorized accounts found."
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:83
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:138
+msgid "no iban"
+msgstr ""
+
+#: admin/class-settings.php:327
+msgid "No log files found!"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:258
+msgid "No transactions found for this order"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Offer a new, user-friendly payment option for your customers, suitable for "
+"any amount. Make transfers easier and more secure to boost your conversion "
+"rates."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:73
+msgid ""
+"Once authenticated with his bank, a summary of the transactions is displayed."
+" He confirms it."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:48
+msgid "One of the most secured solutions available in the market."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:31
+msgid "Opt for a wire transfer"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:211
+msgid "Order ID %d : %d item(s)"
+msgstr ""
+
+#: admin/class-settings.php:402
+#: admin/templates/page-settings/tabs/statuses.php:15
+msgid "Order Statuses"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/statuses.php:31
+msgid "Payer authenticated"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:300
+msgid "Payer details"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:325
+msgid "Payer reference"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/statuses.php:42
+msgid "Payment accepted"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/statuses.php:53
+msgid "Payment cancelled"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:235
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:381
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:393
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:404
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:414
+msgid "Payment error: Please try again"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:74
+msgid "payment initiation"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/statuses.php:64
+msgid "Payment rejected"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:16
+#: admin/templates/page-settings/tabs/advanced.php:68
+msgid "Payment settings"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:219
+msgid ""
+"Payment tracking is available directly in the WooCommerce dashboard. The "
+"WooCommerce plugin will provide you with information regarding the status "
+"and state of your payment. Order reconciliation is automatic."
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:286
+msgid "Payment type"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:48
+msgid "Payment with Linxo Connect"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:335
+msgid "Payments details"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:148
+msgid "Please add a first beneficiary account."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:166
+msgid "Please Add a valid Client ID and Client Secret."
+msgstr ""
+
+#: admin/class-settings.php:175
+msgid "Please try again, webhook cannot be saved."
+msgstr ""
+
+#: admin/class-settings.php:231 admin/class-settings.php:237
+#: admin/class-settings.php:257 admin/class-settings.php:263
+#: admin/class-settings.php:308
+msgid "Please try again."
+msgstr ""
+
+#: admin/class-settings.php:181
+msgid "Please verify your credentials."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:33
+msgid "Production"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:76
+msgid "Production ID"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:83
+msgid "Production Secret"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:28
+msgid "Sandbox"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:54
+msgid "Sandbox ID"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:61
+msgid "Sandbox Secret"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/statuses.php:80
+#: admin/templates/page-settings/tabs/advanced.php:147
+msgid "Save"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/account.php:99
+msgid "Save & Check credentials"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:313
+#: admin/templates/page-settings/tabs/iban.php:113
+msgid "Scheme"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:94
+msgid "secure"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:47
+msgid "Secure payment (strong authentication from the payer's bank)"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:179
+msgid "Select your type"
+msgstr ""
+
+#: admin/class-settings.php:129
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:86
+msgid "Simplified transfer (with pre-filled IBAN)"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:205
+msgid "SIREN or SIRET number"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:32
+msgid "smooth and secured"
+msgstr ""
+
+#: admin/helpers/class-get-specific-order.php:150
+#: admin/templates/page-settings/tabs/advanced.php:88
+msgid "Standard"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:274
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:344
+msgid "Status"
+msgstr ""
+
+#: admin/class-settings.php:170
+msgid ""
+"The credentials are valid and the settings have been successfully saved."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:239
+msgid ""
+"The Linxo Connect Payments \"button\" will be automatically added to the "
+"list of other payment methods offered on your payment page, labeled as "
+"\"Secured payment with Linxo Connect\" with a Linxo Connect logo. By "
+"choosing this payment method, your customer will follow the payment process "
+"as explained in question 2 and will be automatically redirected to your e-"
+"commerce site after payment validation."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:74
+msgid "The merchant receives an instant confirmation."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:47
+#, php-format
+msgid ""
+"The minimum log file level will be set to Debug. You can access older files "
+"on your server, in the %s directory."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:118
+msgid "The plugin is compatible with WordPress versions 5.9 and above."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:199
+msgid ""
+"The traditional bank transfer payment offered by Linxo Connect is completely "
+"free for the customer. In the case of an instant transfer, fees may apply "
+"(up to €1). These fees vary according to the pricing policy of the banking "
+"institutions. Those banking institutions are obligated to inform the "
+"customer. The customer's explicit and informed consent must be obtained "
+"before the payment is finalized."
+msgstr ""
+
+#. 1: link 2: tag html
+#: admin/templates/page-settings/tabs/iban.php:101
+#, php-format
+msgid "This account is blocked, please contact Linxo Connect %1$ssupport%2$s"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:179
+msgid ""
+"To do so, all you need are your credentials in Production mode. These "
+"credentials should be entered in: My Account > 'Production' mode."
+msgstr ""
+
+#. 1: link 2: tag html
+#: admin/templates/page-settings/tabs/faq.php:138
+#, php-format
+msgid ""
+"To get your own Sandbox credentials, please contact Linxo Connect through "
+"the %1$scontact form%2$s Linxo Connect. Your Production credentials will "
+"then be provided to you by our technical teams."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:84
+msgid "Transfer type"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:94
+msgid "Two possible scenarios :"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/iban.php:136
+msgid "Use as beneficiary"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:28
+msgid "What is Linxo Connect Payments?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:231
+msgid "What will the payment button look like on the payment page?"
+msgstr ""
+
+#. 1: link 2: tag html
+#: admin/templates/page-settings/tabs/faq.php:67
+#, php-format
+msgid ""
+"When a customer confirms their shopping cart and chooses to pay by bank "
+"transfer via %1$sLinxo Connect Payments%2$s :"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:259
+msgid ""
+"When the merchant initiates a payment order, he is then informed of the "
+"payment status. (\"Executed\" , \"Rejected\" or \"Cancelled\"). The final "
+"customer (the payer) is informed by email of the transaction's execution."
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:130
+msgid "Where can I find my sandbox and production ID and secret?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/faq.php:110
+msgid "Which versions of WordPress support the Linxo Connect Payments plugin?"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/advanced.php:39
+#: admin/templates/page-settings/tabs/advanced.php:115
+#: admin/templates/page-settings/tabs/advanced.php:134
+msgid "Yes"
+msgstr ""
+
+#: admin/templates/page-settings/tabs/presentation.php:20
+msgid ""
+"You will then receive your login details enabling you to configure the "
+"Payments plugin"
+msgstr ""
+
+#: admin/wc-payment-methods/class-wc-gateway-linxo-woo.php:462
+msgid "Your payment has expired or been rejected. Please make a new payment."
+msgstr ""

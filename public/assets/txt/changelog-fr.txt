@@ -1,0 +1,3 @@
+- Nouveaux visuels FO
+- Nouveau bloc descriptif d'onboarding
+- Téléchargement des logs sur l'extension

@@ -1,0 +1,75 @@
+.linxo-woo__nav-tabs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    z-index: 2;
+    border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: -1px;
+
+    & a {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 300;
+        color: $color-link;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 3px 3px 0 0;
+        outline: none;
+        box-shadow: none;
+        line-height: 1.42857;
+        padding: 10px 10px;
+        
+        &.nav-tab-active {
+            color: $color-text;
+            z-index: 99;
+            background-color: $color-bg-light;
+            border: 1px solid;
+            border-color: $color-border;
+            cursor: default;
+            border-bottom-color: transparent;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            & svg {
+                fill: $color-text;
+            }
+        }
+
+        & svg {
+            display: block;
+            width: auto;
+            height: 12px;
+            fill: $color-link;
+            margin-right: 3px;
+        }
+        
+        &:not(.nav-tab-active):hover {
+            color: $color-link-hover;
+            text-decoration: none;
+            background-color: transparent;
+            & svg {
+                fill: $color-link-hover;
+            }
+        }
+
+        &.hide {
+            display: none;
+        }
+    }
+
+    &__toggle {
+        font-size: 12px;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+
+}

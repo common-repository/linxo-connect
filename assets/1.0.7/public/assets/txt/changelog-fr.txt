@@ -1,0 +1,2 @@
+- Ajout de méthodes d'échappement
+- Mise à jour de la réassurance

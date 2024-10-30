@@ -1,0 +1,1 @@
+import '../scss/admin-payment-methods.scss';

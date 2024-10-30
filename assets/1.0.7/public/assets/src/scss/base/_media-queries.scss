@@ -1,0 +1,7 @@
+@mixin mw1820 {
+    @media (max-width: 1820px) { @content; }
+}
+
+@mixin mw992 {
+    @media (max-width: 992px) { @content; }
+}

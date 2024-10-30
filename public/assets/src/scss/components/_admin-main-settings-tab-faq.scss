@@ -1,0 +1,79 @@
+.linxo-woo__tabs-content__tab__form__body__faq {
+
+    &__item {
+        border-bottom: 2px #eff4f7 solid;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+
+        &__header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            margin-top: 17px;
+            margin-bottom: 8.5px;
+
+            &__title {
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                font-weight: 800;
+                line-height: 1.6;
+                margin: 0;
+
+                & .number {
+                    margin-right: 2rem;
+                }
+            }
+
+            &__chevron {
+                transition: 0.3s;
+                
+                & svg {
+                    height: 0.6rem;
+                    width: auto;
+                    display: block;
+                }
+            }
+        }
+
+        &__body {
+            display: none;
+        }
+
+        &__answer {
+            padding: 16px 0;
+
+            &__text {
+                margin: 0;
+                margin-bottom: 8.5px;
+
+                &.t-0 {
+                    margin-top: 0;
+                }
+            }
+
+            &__list {
+                margin: 0;
+                margin-bottom: 8.5px;
+                padding-left: 40px;
+                list-style: disc;
+
+                &.ol {
+                    list-style: decimal;
+                }
+            }
+
+        }
+
+        &.active {
+            .linxo-woo__tabs-content__tab__form__body__faq__item {
+                &__header {
+                    &__chevron {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+    }
+}

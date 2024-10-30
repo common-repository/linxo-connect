@@ -1,0 +1,99 @@
+.linxo-woo__tabs-content__presentation {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    &__section {
+        margin-bottom: 45px;
+        margin-left: 20px;
+
+        @include mw992 {
+            margin-left: 0;
+        }
+        
+        &.flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            @include mw992 {
+                flex-direction: column;
+            }
+        }
+
+        &__left {
+            margin-right: 80px;
+        }
+
+        &__right {
+
+            & img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    &__subtitle {
+        font-family: 'HK Grotesk', sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 116%;
+        color: $color-text;
+    }
+
+    &__title {
+        font-family: 'HK Grotesk', sans-serif;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 116%;
+        color: $color-main;
+        margin-bottom: 20px;
+
+        & span {
+            color: $color-text;
+        }
+    }
+
+    &__text {
+
+        &__item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px;
+
+            &__icon {
+                margin-right: 3px;
+                margin-top: 5px;
+
+                & svg {
+                    display: block;
+                    width: 20px;
+                    height: auto;
+                }
+            }
+
+            &__text {
+                font-family: 'HK Grotesk', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 187.5%;
+                color: $color-text;
+            }
+        }
+    }
+
+    &__img {
+
+        & img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+}

@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/HankenGrotesk/HankenGrotesk-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HK Grotesk Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../fonts/HankenGrotesk/HankenGrotesk-Bold.ttf') format('truetype');
+}
+
+.linxo-woo {
+    font-family: 'HK Grotesk', sans-serif;
+
+    p {
+        margin: 0;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .flex-wrap {
+        flex-wrap: wrap;
+    }
+
+    .gap-10 {
+        gap: 10px;
+    }
+
+    .bg-yellow-light {
+        background-color: #fff3d9;
+    }
+
+    .bg-yellow {
+        background-color: #ffae01;
+    }
+
+    .text-blue {
+        color: #042e51;
+    }
+
+    .border-gray {
+        border: 1px solid #e7e7eb;
+    }
+
+    .text-bold,
+    strong {
+        font-family: "HK Grotesk Bold";
+    }
+
+    .text-regular {
+        font-family: "HK Grotesk";
+    }
+
+    /* TOP */
+    .top_wrapper {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%;
+        display: flex;
+
+        & p:last-child {
+            display: none;
+        }
+    }
+
+    .top_container {
+        & p:last-child {
+            display: none;
+        }
+    }
+
+    .top_item {
+        border-radius: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .top_item span {
+        text-align: center;
+    }
+
+    .text-top_item {
+        font-size: 12px;
+    }
+
+    .top_img {
+        margin: 0px !important;
+        max-height: unset !important;
+    }
+
+    .text-top_item {
+        text-align: center;
+    }
+
+    /* BOTTOM */
+    .title {
+        font-size: 20px;
+    }
+
+    .bottom_wrapper {
+        position: relative;
+    }
+
+    .bottom_item {
+        margin-top: 30px;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+        background-color: #fff;
+    }
+
+    .decoration {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        background-color: #ffae01;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .step {
+        padding: 1px 10px;
+        border-radius: 40px;
+        color: #fff;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    @media (max-width: 560px) {
+        .step {
+            align-self: self-start;
+        }
+    }
+
+    .step_1 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .text_step {
+        align-self: center;
+        font-size: 12px;
+    }
+
+    /* FOOTER */
+    .footer_wrapper {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+
+    .footer_text {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .footer_img {
+        width: 200px;
+        margin: 0 !important;
+        float: unset !important;
+        max-height: unset !important;
+    }
+
+}

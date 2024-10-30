@@ -1,0 +1,3 @@
+- New FO pictures
+- New description bloc for onboarding
+- Download logs from the extension

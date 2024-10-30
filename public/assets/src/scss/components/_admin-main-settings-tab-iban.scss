@@ -1,0 +1,138 @@
+.linxo-woo__iban__accounts {
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+        &__item {
+            border: 1px solid $color-border;
+            border-radius: 5px;
+            min-width: 300px;
+
+            &__header {
+                border-bottom: 1px solid $color-border;
+                padding: 10px;
+            }
+
+            &__title {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            &__error {
+                padding: 20px;
+
+                &__content {
+                    border: 1px solid #d72525;
+                    background: #FEE;
+                    border-radius: 8px;
+                    padding: 10px;
+                }
+            }
+
+            &__body {
+                padding: 20px;
+
+                &__item {
+                    position: relative;
+                    margin-bottom: 10px;
+
+                    &__title {
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+
+                    &__value {
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+
+                    &__img {
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 30px;
+
+                        & img {
+                            display: block;
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+
+            &__footer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 1px solid $color-border;
+                padding: 10px;
+
+                & &__delete {
+                    color: $color-danger;
+                    border-color: $color-danger;
+                    text-transform: uppercase;
+
+                    &:focus,
+                    &:active,
+                    &:hover {
+                        border-color: darken($color-danger, 10%);
+                        color: darken($color-danger, 10%);
+                    }
+
+                    &:focus {
+                        box-shadow: 0 0 0 1px $color-danger;
+                    }
+                }
+
+                &__default-text {
+                    display: flex;
+                    align-items: center;
+                    font-size: 12px;
+
+                    & svg {
+                        display: block;
+                        width: 15px;
+                        height: auto;
+                    }
+                }
+
+                & &__default-btn {
+                    color: $color-link;
+                    border-color: $color-link;
+                    text-transform: uppercase;
+
+                    &:focus,
+                    &:active,
+                    &:hover {
+                        border-color: $color-link-hover;
+                        color: $color-link-hover;
+                    }
+
+                    &:focus {
+                        box-shadow: 0 0 0 1px $color-link-hover;
+                    }
+                }
+            }
+        }
+    }
+
+    &__actions {
+        margin-top: 20px;
+
+        & &__add {
+            background-color: $color-link;
+            border-color: $color-link;
+            text-transform: uppercase;
+
+            &:focus,
+            &:active,
+            &:hover {
+                background-color: $color-link-hover;
+                border-color: $color-link-hover;
+            }
+        }
+    }
+}

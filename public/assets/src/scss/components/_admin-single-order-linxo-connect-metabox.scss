@@ -1,0 +1,136 @@
+.linxo-woo {
+
+    &__info {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+        background-color: #f8f8f8;
+        padding: 18px 18px 16px;
+    
+        &__item {
+            flex: 1;
+            padding: 0 10px;
+    
+            &__title {
+                font-size: 14px;
+                font-weight: 700;
+                color: #6c868e;
+            }
+    
+            &__content {
+                font-size: 14px;
+                font-weight: 400;
+                color: #363a41;
+            }
+        }
+    }
+
+    &__data {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 20px;
+
+        &__left,
+        &__right {
+            flex: 1;
+            border: 1px solid $color-border;
+            border-radius: 5px;
+
+            & table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            &__header {
+                border-bottom: 1px solid $color-border;
+                padding: 10px;
+            }
+
+            &__title {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            &__body {
+                padding: 20px;
+
+                th,
+                td {
+                    padding: 6px;
+                }
+
+                & img {
+                    width: 20px;
+                    height: auto;
+                }
+            }
+        }
+
+        &__left {
+
+            & th {
+                text-align: right;
+            }
+        }
+
+        &__right {
+
+            & thead {
+
+                & th {
+                    text-align: left;
+                    border-bottom: 2px solid $color-link;
+                }
+            }
+
+            & tbody {
+
+                & tr {
+                    border-bottom: 1px solid $color-border;
+                }
+            }
+        }
+
+        &__right {
+            flex: 1;
+        }
+
+    }
+
+    &__empty {
+        background-color: #fabbbb;
+        border: 1px solid $color-danger;
+        border-radius: 5px;
+        padding: 10px;
+    }
+}
+
+#linxo_woo_payment_info {
+
+    & .postbox-header {
+
+        & .hndle {
+            position: relative;
+            padding-left: 38px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 12px;
+                transform: translateY(-50%);
+                display: inline-block;
+                width: 22px;
+                height: 22px;
+                background-image: url('../../svg/logo-menu.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+        }
+    }
+}

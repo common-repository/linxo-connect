@@ -1,0 +1,190 @@
+.linxo-woo__tabs-content {
+    position: relative;
+    background-color: $color-bg-light;
+    border: 1px solid $color-border;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    padding: 20px;
+    margin-bottom: 20px;
+
+    &__tab {
+        
+        &__form {
+            position: relative;
+            background-color: $color-bg-light;
+            border: 1px solid $color-border;
+            border-radius: 5px;
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            margin-bottom: 20px;
+
+            &__header {
+                padding: 10px;
+                border-bottom: 1px solid $color-border;
+
+                &__title {
+                    display: flex;
+                    align-items: center;
+
+                    &__icon {
+                        margin-right: 5px;
+
+                        & svg {
+                            display: block;
+                            width: 20px;
+                            height: auto;
+                            fill: $color-text;
+                        }
+                    }
+
+                    &__text {
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            &__body {
+                padding: 20px;
+
+                &__info {
+                    position: relative;
+                    display: flex;
+                    border: 1px solid #25b9d7;
+                    border-radius: 8px;
+                    background-color: #beeaf3;
+                    padding: 15px;
+                    margin-bottom: 17px;
+                    
+                    &__icon {
+                        
+                        & svg {
+                            display: block;
+                            width: 25px;
+                            height: auto;
+                            fill: #25b9d7;
+                        }
+                    }
+                    
+                    &__text {
+                        margin-left: 15px;
+                        
+                        & p {
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 1.6;
+                            color: $color-text;
+                            padding: 0;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                &__table {
+
+                    & th {
+                        text-align: right;
+                        font-weight: normal;
+
+                        &.required {
+
+                            &::before {
+                                content: "*";
+                                position: relative;
+                                font-size: 15px;
+                                color: $color-danger;
+                            }
+                        }
+                    }
+
+                    & .password-input {
+                        position: relative;
+                        display: inline-block;
+
+                        &__show {
+                            display: none;
+                        }
+
+                        &__hide {
+                            display: block;
+                        }
+
+                        &__show,
+                        &__hide {
+                            position: absolute;
+                            top: 50%;
+                            left: 100%;
+                            transform: translateY(-50%);
+                            cursor: pointer;
+
+                            & svg {
+                                display: block;
+                                width: 20px;
+                                height: auto;
+                            }
+                        }
+
+                        &.show {
+
+                            .password-input {
+
+                                &__show {
+                                    display: block;
+                                }
+
+                                &__hide {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    & .download-btn {
+                        position: relative;
+
+                        & .spinner {
+                            position: absolute;
+                            top: 50%;
+                            right: -20px;
+                            transform: translateY(-50%);
+                        }
+                    }
+
+                    & input:not([type=radio]):not([type=checkbox]) {
+                        width: 250px;
+                    }
+                
+                    & select {
+                        width: 250px;
+                    }
+
+                    & input[type=radio] {
+
+                        & + .description {
+                            display: block;
+                            font-size: 80%;
+                            color: $color-description;
+                            margin-left: 25px;
+                        }
+                    }
+                }
+            }
+
+            &__footer {
+                text-align: right;
+                border-top: 1px solid $color-border;
+                padding: 20px;
+
+                & .button {
+                    background-color: $color-link;
+                    border-color: $color-link;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        background-color: $color-link-hover;
+                        border-color: $color-link-hover;
+                    }
+                }
+            }
+        }
+    }
+}
